@@ -2,15 +2,8 @@ package uk.co.firozansari.ndkexperiments;
 
 import android.util.Base64;
 
-/**
- * Created by firoz on 14/07/2017.
- */
-
 public class Utils {
-    /**
-     * @param input
-     * @return decoded string
-     */
+
     public static String decode(String input) {
         String text = "";
         try {
@@ -22,5 +15,4 @@ public class Utils {
         }
         return "Error";
     }
-
 }

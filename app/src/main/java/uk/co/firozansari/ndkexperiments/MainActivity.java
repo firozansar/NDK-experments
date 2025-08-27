@@ -1,13 +1,9 @@
 package uk.co.firozansari.ndkexperiments;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Base64;
 import android.widget.TextView;
-
-/**
- * Created by firoz on 31/12/2016.
- */
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,6 +27,5 @@ public class MainActivity extends AppCompatActivity {
 
         keytv = (TextView) findViewById(R.id.key);
         keytv.setText(Utils.decode(getNativeKey()));
-
     }
 }
